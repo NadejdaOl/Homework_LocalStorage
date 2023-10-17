@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./css/style.css" id="theme"/>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container_1">
+      
+      </div>
+      <div class="container_2">
+        <label class="switch">
+          <input class="switch_input" type="checkbox"/>
+          <span class="switch_slider"></span>
+        </label>
+        
+
+        <form class="register_form">
+          <div class="create_account">
+            <h2>Create account</h2>
+            
+            <ul class="social_media">
+              <li>
+                <a href="https://facebook.com">
+                  <div class="facebook"></div>
+                  <!-- <img
+                    class="media-facebook"
+                    src="./image/facebook-fill 1.svg"
+                    alt="facebook"
+                  /> -->
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com">
+                  <div class="twitter"></div>
+                  <!-- <img
+                    class="media-twitter"
+                    src="./image/twitter-fill 1.svg"
+                    alt="twitter"
+                  /> -->
+                </a>
+              </li>
+              <li>
+                <a href="https://google.com">
+                  <div class="google"></div>
+                  <!-- <img
+                    class="media-google"
+                    src="./image/google-fill 1.svg"
+                    alt="google"/> -->
+                </a>
+              </li>
+            </ul>
+          </div>
+          <p class="item_1">Or register using email & password</p>
+
+          <label class="form_label" for="FullName">Full name</label>
+          <input
+            class="form_input"
+            id="FullName"
+            placeholder="John rambo"
+            type="text"
+            
+          />
+
+          <label class="form_label" for="EmailAdress">Email address</label>
+          <input
+            class="form_input"
+            id="EmailAdress"
+            placeholder="hello@hey.com"
+            type="text"
+          />
+
+          <label class="form_label" for="CreatePassword">Create password</label>
+          <input
+            class="form_input"
+            id="CreatePassword"
+            placeholder="••••••••••••"
+            type="password"
+          />
+
+          <label class="form_label" for="ConfirmPassword"
+            >Confirm password</label
+          >
+          <input
+            class="form_input"
+            id="ConfirmPassword"
+            placeholder="••••••••••••"
+            type="password"
+          />
+
+          <div class="radio">
+            <input class="custom-radio" id="Terms" type="radio"/>
+            <label for="Terms"
+              >I agree to the <a href="#"> terms</a> &
+              <a href="#"> privacy policy</a></label>
+          </div>
+
+          <input class="form_button" type="submit" value="Register" />
+        </form>
+      </div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
